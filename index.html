@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en-MY">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HRMS 3.0 Help Centre</title>
+<meta name="description" content="SainoForce HRMS 3.0 Help Centre: a Demo journey for prospects and Guidance: step-by-step HR guides for clients.">
+<link rel="icon" href="assets/img/sainoforce-logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700&family=Source+Sans+3:wght@400;600;700&family=JetBrains+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-journey="none">
+<a class="skip" href="#main" onclick="var m=document.getElementById('main');if(m){m.focus();}return false;">Skip to content</a>
+<header class="site-header">
+  <div class="header-in">
+    <button class="btn btn-ghost menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false" aria-controls="sideNav" hidden><svg class="icon" aria-hidden="true"><use href="#i-menu"></use></svg></button>
+    <button class="btn btn-ghost nav-collapse" id="navCollapse" aria-label="Hide side menu" aria-pressed="false" title="Hide side menu ( [ )" hidden><svg class="icon" aria-hidden="true"><use href="#i-sidebar"></use></svg></button>
+    <a class="brand" href="#home"><img src="assets/img/sainoforce-logo.png" alt="SainoForce"><span>HRMS 3.0 Help Centre</span></a>
+    <nav class="journey-switch" aria-label="Journey">
+      <a href="#demo" class="demo" data-j="demo" aria-current="false"><svg class="icon sm" aria-hidden="true"><use href="#i-presentation"></use></svg><span>Demo<span class="lbl-long"> journey</span></span></a>
+      <a href="#guidance" class="train" data-j="train" aria-current="false"><svg class="icon sm" aria-hidden="true"><use href="#i-graduation"></use></svg><span>Guidance</span></a>
+    </nav>
+    <div class="header-search">
+      <svg class="icon" aria-hidden="true"><use href="#i-search"></use></svg>
+      <input id="siteSearch" type="search" placeholder="Search guides" aria-label="Search the Help Centre" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="sitePop">
+      <kbd>/</kbd>
+      <div class="search-pop" id="sitePop" role="listbox" hidden></div>
+      <button class="btn btn-ghost search-close" id="searchClose" aria-label="Close search"><svg class="icon" aria-hidden="true"><use href="#i-x"></use></svg></button>
+    </div>
+    <button class="btn btn-ghost search-toggle" id="searchToggle" aria-label="Search" aria-expanded="false"><svg class="icon" aria-hidden="true"><use href="#i-search"></use></svg></button>
+    <button class="btn btn-navy" id="presentBtn" hidden><svg class="icon sm" aria-hidden="true"><use href="#i-play"></use></svg>Present</button>
+  </div>
+</header>
+<button class="nav-reopen" id="navReopen" aria-label="Show menu"><svg class="icon sm" aria-hidden="true"><use href="#i-chevrons-r"></use></svg><span>Menu</span></button>
+<div id="app"></div>
+<footer class="site-footer"><div><span>SainoForce · HRMS 3.0 Help Centre · Content version Oct 2026</span><span>Press <kbd>?</kbd> for keyboard shortcuts · Still stuck? Raise a SainoDesk ticket</span></div></footer>
+<div id="live" class="sr-only" aria-live="polite"></div>
+<script src="assets/js/slides.js"></script>
+<script src="assets/js/content.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
