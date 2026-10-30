@@ -805,15 +805,38 @@ window.SLIDES = {
 },
 {
 "n": 43,
-"title": "Employee On-Boarding Process - Adding Statutory Details",
-"instr": "Message will prompt upon saving - Click 'Yes' , then click 'Back'",
+"title": "Employee On-Boarding Process-Adding Employee Details (NEISS)",
+"instr": "Repeat Steps",
 "steps": [
-"27. Click 'Back' once done"
+"27. Select 'NEISS'",
+"28. Select 'NEISS Details'"
+],
+"notes": [
+"Select for employee with 'C1' (Employment Injury and invalidity schemes) Select for employee with 'C2' (Employment Injury schemes only) Select for employee with 'NA' (Exempt from NEISS contributions)"
+]
+},
+{
+"n": 44,
+"title": "Employee On-Boarding Process-Adding Employee Details (NEISS)",
+"instr": "Completing the NEISS Details",
+"steps": [
+"29. Insert NEISS No",
+"30. Select Location",
+"31. Click 'Save' once done"
 ],
 "notes": []
 },
 {
-"n": 44,
+"n": 45,
+"title": "Employee On-Boarding Process - Adding Statutory Details",
+"instr": "Message will prompt upon saving - Click 'Yes' , then click 'Back'",
+"steps": [
+"32. Click 'Back' once done"
+],
+"notes": []
+},
+{
+"n": 46,
 "title": "Employee On-Boarding Process - Adding Employee Details (Bank Details)",
 "instr": "Main Portal > Access 'Employee Management' > Access 'Salary' > Access 'Multi-Bank Payment'",
 "steps": [
@@ -824,7 +847,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 45,
+"n": 47,
 "title": "Employee On-Boarding Process - Adding Employee Details (Bank Details)",
 "instr": "Adding Employee Bank Details",
 "steps": [
@@ -833,7 +856,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 46,
+"n": 48,
 "title": "Employee On-Boarding Process - Adding Employee Details (Bank Details)",
 "instr": "Adding Employee Bank Details",
 "steps": [
@@ -843,7 +866,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 47,
+"n": 49,
 "title": "Employee On-Boarding Process - Adding Employee Details (Bank Details)",
 "instr": "Cont- Complete Employee Bank Details",
 "steps": [
@@ -855,7 +878,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 48,
+"n": 50,
 "title": "Employee On-Boarding Process - Ensuring Employee Join Date",
 "instr": "Access 'Employee Management' > Access 'Statutory' > Access 'Working/Non-Work Child' > Click 'Create Child Working Status'",
 "steps": [
@@ -867,7 +890,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 49,
+"n": 51,
 "title": "Employee On-Boarding Process - Adding Employee's Job Details",
 "instr": "Select Working/Non-Work Child (if applicable)",
 "steps": [
@@ -880,7 +903,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 50,
+"n": 52,
 "title": "Employee Management Module",
 "instr": "",
 "steps": [],
@@ -889,7 +912,7 @@ window.SLIDES = {
 ]
 },
 {
-"n": 51,
+"n": 53,
 "title": "Employee's Maintenance - Create Employee's User ID",
 "instr": "Access 'User Management' >Access 'User' > Access 'Create User'",
 "steps": [
@@ -900,7 +923,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 52,
+"n": 54,
 "title": "Employee's Maintenance - Create Employee's User ID",
 "instr": "Adding Employee Details",
 "steps": [
@@ -920,7 +943,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 53,
+"n": 55,
 "title": "Employee's Maintenance-Create Employee's User ID",
 "instr": "Cont- Adding Employee Details",
 "steps": [
@@ -932,7 +955,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 54,
+"n": 56,
 "title": "Employee's Maintenance - Create Employee's User ID",
 "instr": "Once saved and back, you may see the user created",
 "steps": [],
@@ -941,7 +964,7 @@ window.SLIDES = {
 ]
 },
 {
-"n": 55,
+"n": 57,
 "title": "Employee's Maintenance - Forgot Password",
 "instr": "Forgot password (if need)",
 "steps": [
@@ -950,7 +973,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 56,
+"n": 58,
 "title": "Employee's Maintenance - Forgot Password",
 "instr": "Enter Email Address and Submit",
 "steps": [
@@ -960,14 +983,14 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 57,
+"n": 59,
 "title": "Employee's Maintenance - Forgot Password",
 "instr": "New Password sent to the employee's email",
 "steps": [],
 "notes": []
 },
 {
-"n": 58,
+"n": 60,
 "title": "Employee Management Module",
 "instr": "",
 "steps": [],
@@ -976,7 +999,7 @@ window.SLIDES = {
 ]
 },
 {
-"n": 59,
+"n": 61,
 "title": "Employee's Service Management",
 "instr": "",
 "steps": [],
@@ -985,7 +1008,7 @@ window.SLIDES = {
 ]
 },
 {
-"n": 60,
+"n": 62,
 "title": "Employee Service Management - Employee Confirmation",
 "instr": "Access 'Employee Management' > Access 'Status' > Access 'Employee Join/Resignation'",
 "steps": [
@@ -998,7 +1021,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 61,
+"n": 63,
 "title": "Employee Service Management - Employee Confirmation",
 "instr": "Cont - Adding existing Employee's Confirmation Date",
 "steps": [
@@ -1010,7 +1033,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 62,
+"n": 64,
 "title": "Employee Service Management - Employee Resignation",
 "instr": "Adding the existing Employee's Resignation Date",
 "steps": [
@@ -1019,7 +1042,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 63,
+"n": 65,
 "title": "Employee Service Management - Employee Resignation",
 "instr": "Adding Employee Resignation Date Details",
 "steps": [
@@ -1031,7 +1054,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 64,
+"n": 66,
 "title": "Employee Service Management - Employee Increment",
 "instr": "Access 'Employee Management' > Access 'Status' > Access 'Increment/Promotion'",
 "steps": [
@@ -1042,7 +1065,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 65,
+"n": 67,
 "title": "Employee Service Management - Employee Increment",
 "instr": "Create a New Employee Increment",
 "steps": [
@@ -1051,7 +1074,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 66,
+"n": 68,
 "title": "Employee Service Management - Employee Increment",
 "instr": "Adding Employee Increment Details",
 "steps": [
@@ -1062,7 +1085,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 67,
+"n": 69,
 "title": "Employee Service Management - Employee Increment",
 "instr": "Cont - Adding Increment details (For New Joiner)",
 "steps": [
@@ -1079,7 +1102,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 68,
+"n": 70,
 "title": "Employee Service Management- Employee Increment",
 "instr": "Click 'Save' once done",
 "steps": [
@@ -1091,7 +1114,7 @@ window.SLIDES = {
 ]
 },
 {
-"n": 69,
+"n": 71,
 "title": "Employee Onboarding Process - Employee Fixed Allowance/Benefit",
 "instr": "Access 'Payroll Management' > Access 'Employee Benefit'",
 "steps": [
@@ -1101,7 +1124,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 70,
+"n": 72,
 "title": "Employee Onboarding Process - Adding Fixed Allowance Details",
 "instr": "Create New Employee Allowance/Benefit",
 "steps": [
@@ -1110,7 +1133,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 71,
+"n": 73,
 "title": "Employee Onboarding Process - Adding Fixed Allowance Details",
 "instr": "Adding Employee fixed allowance/benefit details",
 "steps": [
@@ -1125,7 +1148,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 72,
+"n": 74,
 "title": "Employee Onboarding Process - Adding Fixed Allowance Details",
 "instr": "Message will prompt upon saving - Click 'Yes', then click 'Back'",
 "steps": [
@@ -1134,7 +1157,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 73,
+"n": 75,
 "title": "Employee Service Management - Employee Deduction",
 "instr": "Access 'Payroll Management' > Access 'Employee Deduction'",
 "steps": [
@@ -1144,7 +1167,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 74,
+"n": 76,
 "title": "Employee Service Management - Employee Deduction",
 "instr": "Create New Employee Deduction Record",
 "steps": [
@@ -1153,7 +1176,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 75,
+"n": 77,
 "title": "Employee Service Management - Employee Deduction",
 "instr": "Adding Deduction Details",
 "steps": [
@@ -1163,7 +1186,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 76,
+"n": 78,
 "title": "Employee Service Management - Employee Deduction",
 "instr": "Cont - Completing the Deduction Details",
 "steps": [
@@ -1176,7 +1199,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 77,
+"n": 79,
 "title": "Employee Disablement",
 "instr": "Access 'Employee Management' > Access 'Employee Disablement' > Click 'Create Employee Disablement'",
 "steps": [
@@ -1187,7 +1210,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 78,
+"n": 80,
 "title": "Employee Disablement",
 "instr": "Cont – Create new employee disablement record",
 "steps": [
@@ -1200,7 +1223,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 79,
+"n": 81,
 "title": "Upload File",
 "instr": "Access Employee Management > Access Upload File",
 "steps": [
@@ -1210,7 +1233,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 80,
+"n": 82,
 "title": "Upload File",
 "instr": "Download template and open it",
 "steps": [
@@ -1220,7 +1243,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 81,
+"n": 83,
 "title": "Upload File",
 "instr": "Cont- Insert necessary details into template and save template.",
 "steps": [
@@ -1231,7 +1254,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 82,
+"n": 84,
 "title": "Upload File",
 "instr": "Cont- Upload",
 "steps": [
@@ -1244,7 +1267,7 @@ window.SLIDES = {
 ]
 },
 {
-"n": 83,
+"n": 85,
 "title": "Manage Reimbursement Claim",
 "instr": "Save reimbursement claim data.",
 "steps": [
@@ -1257,7 +1280,7 @@ window.SLIDES = {
 ]
 },
 {
-"n": 84,
+"n": 86,
 "title": "Manage Reimbursement Claim",
 "instr": "Reimbursement claim data is saved successfully.",
 "steps": [
@@ -1269,7 +1292,7 @@ window.SLIDES = {
 ]
 },
 {
-"n": 85,
+"n": 87,
 "title": "Manage Reimbursement Claim",
 "instr": "If the data cannot be uploaded, the system will display the reason and what needs to be fixed.",
 "steps": [
@@ -1279,7 +1302,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 86,
+"n": 88,
 "title": "Manage Reimbursement Claim",
 "instr": "Reimbursement claim data is saved successfully.",
 "steps": [
@@ -1289,7 +1312,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 87,
+"n": 89,
 "title": "Employee's Maintenance - Upload File",
 "instr": "Upload File",
 "steps": [
@@ -1299,7 +1322,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 88,
+"n": 90,
 "title": "Employee Maintenance - Upload File",
 "instr": "Cont- Upload File",
 "steps": [
@@ -1309,7 +1332,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 89,
+"n": 91,
 "title": "Employee On-Boarding Process - Upload File",
 "instr": "Cont - Upload File",
 "steps": [
@@ -1320,7 +1343,7 @@ window.SLIDES = {
 "notes": []
 },
 {
-"n": 90,
+"n": 92,
 "title": "Employee On-Boarding Process - Upload File",
 "instr": "Cont- Upload File",
 "steps": [

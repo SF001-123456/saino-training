@@ -549,11 +549,13 @@
       s = n; if (s === 1) { tx = 0; ty = 0; } apply();
     }
     function show(i) {
-      idx = (i + list.length) % list.length; s = 1; tx = 0; ty = 0;
+      if (idx != null && (i < 0 || i >= list.length)) return;
+      idx = Math.max(0, Math.min(list.length - 1, i)); s = 1; tx = 0; ty = 0;
       const it = list[idx], im = $("#lbImg"); im.src = it.src; im.alt = it.alt;
       $("#lbPos").textContent = list.length > 1 ? `${idx + 1} of ${list.length}` : "";
       $("#lbCap").innerHTML = `<b>${esc(it.title)}</b>${it.callouts.length ? `<ul>${it.callouts.map(c => { const [n, t] = splitCallout(c); return `<li>${n ? `<span class="tagn">${n}</span>` : ""}${esc(t)}</li>`; }).join("")}</ul>` : ""}`;
-      $$(".lb-nav").forEach(b => b.hidden = list.length < 2);
+      $(".lb-nav.prev", el).hidden = idx === 0; $(".lb-nav.next", el).hidden = idx === list.length - 1;
+      if (document.activeElement && document.activeElement.hidden) $("#lbClose").focus();
       apply(); if (onChange) onChange(idx);
     }
     function close() { if (!el) return; el.remove(); el = null; document.removeEventListener("keydown", key, true); $("#app").inert = false; $(".site-header").inert = false; if (opener && opener.focus) opener.focus(); }
@@ -571,7 +573,7 @@
       else if (k === "Tab") { const f = $$("button", el).filter(b => b.offsetParent); const a = f.indexOf(document.activeElement); e.preventDefault(); f[(a + (e.shiftKey ? -1 : 1) + f.length) % f.length].focus(); }
     }
     function open(items, i, t, op, cb) {
-      close(); list = items; opener = op; onChange = null; title = t;
+      close(); list = items; idx = null; opener = op; onChange = null; title = t;
       el = document.createElement("div"); el.className = "lightbox"; el.setAttribute("role", "dialog"); el.setAttribute("aria-modal", "true"); el.setAttribute("aria-label", "Screenshot viewer");
       el.innerHTML = `<div class="lb-top"><span class="t">${esc(t)}</span><span class="pos" id="lbPos"></span><span class="sp"></span>
         <button class="lb-btn" id="lbOut" aria-label="Zoom out">${icon("zoom-out", "sm")}</button><button class="lb-btn" id="lbZoom" aria-label="Fit to screen">Fit</button><button class="lb-btn" id="lbIn" aria-label="Zoom in">${icon("zoom-in", "sm")}</button>
